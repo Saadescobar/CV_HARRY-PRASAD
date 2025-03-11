@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Harry Prasad</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5e6cc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            width: 700px;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 20px;
+        }
+        .sidebar {
+            background: #f8b400;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            color: white;
+        }
+        .sidebar img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: white;
+            padding: 5px;
+        }
+        .content {
+            padding: 10px;
+        }
+        h1 {
+            margin: 10px 0;
+            color: #333;
+        }
+        h2 {
+            background: #f8b400;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            font-size: 18px;
+            text-align: center;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin: 5px 0;
+        }
+        .skill-bar {
+            background: #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            margin: 5px 0;
+        }
+        .skill-level {
+            height: 10px;
+            border-radius: 5px;
+            background: #f8b400;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <img src="pasfoto.png" alt="Foto Harry Prasad">
+            <h1>Harry Prasad</h1>
+            <p><strong>Agama:</strong> Hindu</p>
+            <p><strong>No. Telp:</strong> 085217315597</p>
+            <p><strong>Alamat:</strong> Jl Sungai Brantas No.63</p>
+            <p><strong>Tempat, Tanggal Lahir:</strong> Jakarta, 7 Oktober 2004</p>
+        </div>
+
+        <div class="content">
+            <h2>Sekolah Tidak Formal</h2>
+            <ul>
+                <li>LBPP LIA Kelapa Gading (2019-2022)</li>
+            </ul>
+
+            <h2>Sekolah Formal</h2>
+            <ul>
+                <li>SD Strada St Ignatius (2011-2016)</li>
+                <li>SMPN 231 Jakarta (2017-2019)</li>
+                <li>SMAN 73 Jakarta (2019-2022)</li>
+                <li>Telkom University Jakarta (2023-sekarang)</li>
+            </ul>
+
+            <h2>Keahlian</h2>
+            <ul>
+                <li>Python</li>
+                <div class="skill-bar"><div class="skill-level" style="width: 90%;"></div></div>
+                <li>SQL</li>
+                <div class="skill-bar"><div class="skill-level" style="width: 70%;"></div></div>
+                <li>Java</li>
+                <div class="skill-bar"><div class="skill-level" style="width: 50%;"></div></div>
+                <li>HTML & CSS</li>
+                <div class="skill-bar"><div class="skill-level" style="width: 80%;"></div></div>
+                <li>MS Office</li>
+                <div class="skill-bar"><div class="skill-level" style="width: 90%;"></div></div>
+                <li>Adobe Photoshop</li>
+                <div class="skill-bar"><div class="skill-level" style="width: 50%;"></div></div>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
